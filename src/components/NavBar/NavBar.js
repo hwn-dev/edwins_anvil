@@ -10,7 +10,6 @@ export default function NavBar() {
             <ul>
                 <div className="logo-section">
                     <img src={anvilLogo} alt="" />
-                    <h1>Edwin's Anvil</h1>
                 </div>
                 <NavLink to="/" className="nav-bar-link">
                     Home
