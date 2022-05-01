@@ -1,0 +1,21 @@
+.home-page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./assets/images/forge.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+}
+
+.home-page h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 7rem;
+}
