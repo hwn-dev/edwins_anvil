@@ -4,12 +4,9 @@ export default function Home() {
     return (
         <div className="home-page">
             <div className="home-page-content">
-                <h1>Edwin's Anvil</h1>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptatum nisi quisquam veniam quasi veritatis quidem,
-                    repudiandae beatae.
-                </p>
+                <p>Artist.</p>
+                <p>Creator.</p>
+                <p>Blacksmith.</p>
             </div>
         </div>
     )
