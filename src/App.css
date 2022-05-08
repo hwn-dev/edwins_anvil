@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=PT+Serif&display=swap');
 
+/* Global */
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
 /* Home Page  */
 .home-page {
     display: flex;
@@ -11,8 +17,8 @@
     width: 100%;
     background-image: linear-gradient(
             to bottom,
-            rgba(245, 246, 252, 0.2),
-            rgba(0, 0, 0, 0.2)
+            rgba(255, 255, 255, 0) 75%,
+            rgba(255, 255, 255, 1) 100%
         ),
         url('./assets/images/forge.jpeg');
     background-repeat: no-repeat;
@@ -34,11 +40,11 @@
 .projects-page {
     height: 100vh;
     width: 100vw;
-    background-color: hotpink;
 }
 
 .projects-page h1 {
     font-family: 'Koulen', cursive;
+    margin: auto;
 }
 
 /* About Page */

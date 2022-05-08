@@ -6,14 +6,16 @@
     height: 50px;
     position: fixed;
     width: 100vw;
-    color: white;
+    color: dimgrey;
     font-size: 18px;
+    top: 12px;
 }
 
 .nav-bar ul {
     display: flex;
     width: 100%;
     justify-content: end;
+    margin-right: 24px;
 }
 
 .nav-bar a:hover {
@@ -37,7 +39,7 @@
 .logo-section {
     display: flex;
     width: 750px;
-    margin-left: 12px;
+    margin-left: 24px;
     margin-right: 40%;
 }
 
