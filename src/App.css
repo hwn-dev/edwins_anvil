@@ -35,11 +35,19 @@
     height: 100vh;
     width: 100vw;
     background-color: hotpink;
-    background-image: url('./assets/images/projects/hair_flower.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .projects-page h1 {
+    font-family: 'Koulen', cursive;
+}
+
+/* About Page */
+.about-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: limegreen;
+}
+
+.about-page h1 {
     font-family: 'Koulen', cursive;
 }
